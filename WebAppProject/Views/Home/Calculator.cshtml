@@ -1,0 +1,10 @@
+﻿<h2>This is web Application</h2>
+
+<form method="POST">
+    <input type="text" placeholder="Enter Numbers only " name="firstNumber" pattern="^\d\.?\d*$" />
+    <input type="text" placeholder="Operation only +, - , /, *" name="operation" pattern="^(\+{1}|-{1}|\*{1}|/{1})$" />
+    <input type="text" placeholder="Enter Numbers only" name="secondNumber"  pattern="^\d\.?\d*$"/>
+
+    <input type="submit" value="Submit" />
+</form>
+<h3 class="text-danger mt-5">Result : @ViewBag.Result</h3>

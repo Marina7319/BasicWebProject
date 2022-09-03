@@ -1,0 +1,16 @@
+﻿<h2>This is number view</h2>
+
+<h1>
+    <ul>
+        <form method="POST">
+            <input type="number" placeholder="New Number" name="number" />
+            <input type="submit" value="Submit" />
+
+
+        </form>
+        @for (int i = 1; i < ViewBag.NumbersRange; i++)
+        {
+            <li>@i</li>
+        }
+    </ul>
+</h1>
